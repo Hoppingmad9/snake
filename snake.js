@@ -92,7 +92,7 @@ function snake() {
   }
 
   this.move = function() {
-    //this.AI();
+    this.AI();
     this.dir = this.nextDir;
     switch(this.dir) {
       case 0:
